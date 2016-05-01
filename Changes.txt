@@ -1,0 +1,20 @@
+For this final submission I focused mainly on CSS and other behind the scenes changes. 
+Firstly, I organized my file structure to something that makes A LOT more sense.
+Next, I cleaned up the JavaScript for the Contact Page which I was using the
+Javascript (jQuery) to check the form and make sure everything was entered before submitting
+IF the required fields were not entered, then a 'model dialog' is created using jQuery to tell the user to please fill out all of the required fields.
+OTHERWISE, the javascript code lets the form get submitted
+Furthermore, the jQuery code will place the focus to the input that needs to be filled-out.
+I corrected this to fix the slip of allowing the form to be submitted.
+Next I further stylized my Projects page and refocused the "Panamb" link because I felt it was off center.
+I also changed the background color to a soft gray because the squiggles and such of the previous background wasnt amazing.
+I changed the picture on the index page to a space image that I had thought was very visualing appeaing yet soft.
+I also changed the tab to have a small picture of myself also.
+I then added more recent projects to project and reduced the font further to be sure that it was still easily read but there wasnt a scroll bar.
+I finished off the projects by changing the link colors to a darker hue of blue.
+I then as near final touch added the github and facebook logo with links to each respective site with my profile.
+Finally I added a line between the footer and body that is visually appealing.
+
+If there was a third part to the assignment I would have liked to implement the model of web site that the class site was based on. 
+I fell in love with the scrolling bar when the user clicked on the tab. This would result in a total rework in my website overall but I think it would be worth it.
+I ultimately realized many of the changes I wanted to do would have required this implementation change so I had to find other things I wanted to do. I thouroughly enjoted this project and really capitalized on the oppurtunity to improve my CSS skills.

@@ -17,7 +17,6 @@
         <br>
         Feel free to take a look around!
         <br>
-        <img src="/images/GitHub32px.jpg">
     </p>
 </div>
 <?php
