@@ -1,0 +1,104 @@
+/* GLOBAL START */
+body{
+    background-color: #eeeeee;
+    text-align: center;
+}
+#content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 16pt;
+    line-height: 1.2em;
+
+    font-family: Helvetica, SansSerif;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    text-indent: 40px;
+    margin-top: 20px;
+}
+/* GLOBAL END */
+
+/* START ABOUTME */
+.snapshot{
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+}
+/* END ABOUTME */
+
+/* INDEX START */
+.bg{
+    background: url('../images/EarthFromSpace.jpg') no-repeat center center;
+    /*position: fixed;*/
+    width: 100%;
+    height: 350px; /*same height as jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height: 350px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background:transparent;
+}
+/* INDEX END */
+
+/* PROJECTS START */
+#centered{
+    margin-left: 38%;
+    margin-right:62%;
+}
+#headerinfo{
+    font-size:14pt;
+}
+
+#Panchor{
+    font-size: 15pt;
+    color: #3262ff;
+}
+dd{
+    display: block;
+    content: "\a";
+    white-space: pre-wrap;
+    font-size: 12pt;
+
+}
+
+/* END PROJECTS */
+
+/* CONTACT ME PAGE */
+form {
+    margin-left: auto;
+    margin-right:auto;
+}
+label {
+    width: 150px;
+}
+input[type=text], input[type=email], textarea {
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0; }
+.floatright { float: right; }
+label[for] { cursor: pointer; }
+
+
+#contactme > label {
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+}
+/* END CONTACT ME PAGE */
+
+/* FOOTER */
+img.footer{
+    all:default;
+}
+/* END FOOTER */

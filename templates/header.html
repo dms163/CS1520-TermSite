@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--<script src="jquery-1.12.0.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link href="js/jquery.js" type="text/javascript" >
+    <link type="text/javascript" src="js/jquery-ui.js">
+    <link type="text/javascript" src="js/script.js">
+
+    <title>
+        <?php
+        echo $pageTitle;
+        ?> | David Sweeney
+    </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./">David Sweeney</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="aboutme.php">About Me<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="resume.php">Resume<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="projects.php">Projects</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" id="contactme"><a href="contact.php">Contact Me</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
